@@ -29,7 +29,7 @@ class UserManagementRepository extends Controller
         $input = $request;
         $date = new Carbon( $request['birthDate']);  
         $year = (int)$date->year;
-        $input['age'] = $year - (int)date("Y");
+        $input['age'] = (int)date("Y") - $year;
         $user = User::create($input);
 
 
