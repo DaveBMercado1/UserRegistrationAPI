@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\UserManagementRepositories;
+namespace App\Repositories;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Hash;

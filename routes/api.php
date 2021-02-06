@@ -17,4 +17,4 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::post('user', 'UserManagementControllers\UserManagementController@UserManagementProcess');
+Route::post('user', 'UserController@UserProcess');
